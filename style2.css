@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+body {
+  overflow: hidden;
+  font-family: "Roboto", serif;
+  background: linear-gradient(135deg, black, #630000);
+  
+}
+.hello {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.youre-cool {
+  width: 100ch;
+  animation: typing 5s steps(17), blink .01s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 5px solid;
+  font-family: VT323;
+  color: #e9f0f5;
+  font-size: 1.4em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
